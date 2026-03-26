@@ -12,7 +12,7 @@ A quick script that sets up a C project folder for you.
 
 ## Setup
 
-1. Put `c_init.sh` somewhere permanent (like `~/scripts/`)
+1. Put `c_init.sh` in your home directory (`~/`)
 2. Add this to your `~/.zshrc`:
 ```bash
 alias cinit="~/c_init.sh"
