@@ -51,13 +51,14 @@ if [ "$gnl" = "y" ]; then
 fi
 
 # --- .gitignore ---
-cat > .gitignore << 'EOF'
+cat > .gitignore << EOF
 *.o
 *.a
 *.d
 a.out
 .DS_Store
 .vscode/
+$name
 EOF
 
 # --- Makefile ---
